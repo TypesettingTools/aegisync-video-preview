@@ -1,0 +1,39 @@
+{
+  "name": "@tstools/aegisync-video-preview",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/index.js",
+  "author": "line0",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-istanbul": "^5.1.4",
+    "del": "^4.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "prettier": "^1.17.1"
+  },
+  "dependencies": {
+    "babel-preset-extendscript": "^1.0.2",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "joi": "^14.3.1",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "minimist": "^1.2.0",
+    "serializr": "^1.5.1",
+    "source-map-support": "^0.5.12"
+  }
+}

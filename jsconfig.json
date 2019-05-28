@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "esnext",
+  },
+  "exclude": [
+    "**/externals/**/*.js",
+    "node_nodules",
+    "**/build/**/*",
+    "**/test/build/**/*"
+  ]
+}
